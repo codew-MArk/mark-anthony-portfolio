@@ -20,7 +20,7 @@ const projects = [
     tags: ["Node.js", "WebSockets", "HTML Canvas"],
     image: "/image/interactiveport.jpg",
     imageAlt: "SketchRoom collaborative workspace preview",
-    liveDemo: "PASTE-YOUR-SKETCHROOM-URL-HERE",
+    liveDemo: "https://sketchroom-xxxx.vercel.app",
     sourceCode: "https://github.com/codew-MArk/sketchroom",
   },
 ]
@@ -75,7 +75,7 @@ export default function ProjectsSection() {
                   <a
                     href={project.liveDemo}
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-purple-600 to-pink-500 px-5 py-2.5 text-sm font-semibold text-white transition hover:from-purple-500 hover:to-pink-400 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-pink-400"
                   >
                     Live Demo <ExternalLink aria-hidden="true" className="size-4" />
@@ -84,7 +84,7 @@ export default function ProjectsSection() {
                     <a
                       href={project.sourceCode}
                       target="_blank"
-                      rel="noreferrer"
+                      rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 rounded-full border border-purple-400/40 px-5 py-2.5 text-sm font-semibold text-purple-100 transition hover:border-pink-400 hover:bg-purple-500/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-pink-400"
                     >
                       Source Code <Code2 aria-hidden="true" className="size-4" />
