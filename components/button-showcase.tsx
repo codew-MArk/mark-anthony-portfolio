@@ -58,7 +58,7 @@ PROJECTS
   }
 
   const buttons = [
-    { id: "view-work", label: "View My Work", icon: "→", href: "/projects" },
+    { id: "view-work", label: "View My Work", icon: "→", href: "#projects" },
     { id: "contact", label: "Get In Touch", icon: "✉", href: "/contact" },
     { id: "resume", label: "Download Resume", icon: "↓", action: handleResumeDownload },
   ]
