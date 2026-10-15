@@ -20,7 +20,7 @@ const projects = [
     tags: ["Node.js", "WebSockets", "HTML Canvas"],
     image: "/image/interactiveport.jpg",
     imageAlt: "SketchRoom collaborative workspace preview",
-    liveDemo: "https://sketchroom-xxxx.vercel.app",
+    liveDemo: "https://sketchroom-cyan.vercel.app",
     sourceCode: "https://github.com/codew-MArk/sketchroom",
   },
 ]
