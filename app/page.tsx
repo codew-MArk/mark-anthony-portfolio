@@ -5,6 +5,7 @@ import FloatingImage from "@/components/floating-image"
 import CursorShadow from "@/components/cursor-shadow"
 import HeroSection from "@/components/hero-section"
 import ButtonShowcase from "@/components/button-showcase"
+import ProjectsSection from "@/components/projects-section"
 import { useTheme } from "@/components/theme-provider"
 
 export default function Home() {
@@ -62,6 +63,8 @@ export default function Home() {
         <FloatingImage mousePosition={mousePosition} />
         <ButtonShowcase />
       </div>
+
+      <ProjectsSection />
 
       <style jsx>{`
         @keyframes blob {
